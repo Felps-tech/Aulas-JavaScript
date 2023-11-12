@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<!-- ONMOUSEDOWN -->
+<!-- <body onmousedown="alert('Clicou na tela')"></body> -->
+
+<!-- ONMOUSEUP -->
+<!-- <body onmouseup="alert('Clicou e soltou o botão do mouse na tela')"></body> -->
+
+<!-- ONLOAD -->
+<!-- <body onload="alert('Página carregada')"></body> -->
+
+<!-- ONRESIZE -->
+<!-- <body onresize="alert('Tamanho da janela mudou')"></body> -->
+
+<!-- ONSCROLL -->
+<!-- <body onscroll="alert('Scroll feito na página')"></body> -->
+
+    <!-- ONCLICK -->
+    <button onclick="eventoClick()"></button>
+
+    <!-- ONDBLCLICK -->
+    <button ondblclick="eventoDblClick()"></button> <br> <br>
+
+    <!-- ONMOUSEOVER -->
+    <div id="bloco" onmouseover="viraVermelho()" onmouseout="viraAzul()" style="width: 80%; height: 200px; background: blue; margin: auto auto"></div>
+    
+    <!-- ONMOUSEMOVE -->
+    <!--<div id="bloco" onmousemove="adicionaTexto()"></div>-->
+
+    <!-- ONFOCUS -->
+    <input onfocus="limpaTexto()" value="Texto já escrito" id="input" type="text" >
+
+    <!-- ONBLUR -->
+    <input onblur="alert('Saiu do foco')" id="input2" type="text">
+
+    <!-- ONCHANGE -->
+    <input onchange="mudou()" id="input3" type="text">
+
+    <!-- ONKEYPRESS -->
+    <input onkeypress="tecla()" id="input4" type="text"> 
+
+    <!-- ONKEYDOWN -->
+    <!-- <input onkeydown="tecla()" id="input4" type="text"> -->
+
+    <!-- ONKEYUP -->
+    <!-- <input onkeyup="tecla()" id="input4" type="text"> -->
+
+    <script src="eventos.js"></script>
+    
+</body>
+</html>
