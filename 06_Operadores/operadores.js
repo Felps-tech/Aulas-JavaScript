@@ -46,4 +46,14 @@ Operadores Relacionais:
 
 Operador Ternário
     condição ? true : false
+
+Lambda
+    Função de seta para somar dois números
+const soma = (a, b) => a + b;
+
+    É equivalente a:
+function soma(a, b) {
+  return a + b;
+}
+
 */
